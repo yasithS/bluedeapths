@@ -1,0 +1,346 @@
+.wrapper{
+    margin: 0px auto;
+}
+.entryBox{
+    display: none;
+    position: relative;
+}
+.firstEntryBox{
+    display: block;
+}
+.outerBorder{
+    border: 5px solid #00eeff;
+    width: 600px;
+    height: 420px;
+    transform: rotate(2deg);
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+    left: calc(50% - 300px);
+}
+.innerBorder{
+    border: 5px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 420px;
+    transform: rotate(-2deg);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.topPrompt{
+    display: flex;
+    justify-content: space-between;
+}
+.stepInfo{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    left: 65px;
+}
+.stepImg{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    right: 90px;
+}
+.entrySubmit{
+    width: 100px;
+    height: 30px;
+    border: 3px solid black;
+    margin-right: 40px;
+    color: black;
+    background: white;
+}
+.entrySubmit:hover{
+    background: black;
+    color: white;
+    box-shadow: 2px 2px gray;
+}
+.promptButtons{
+    position: relative;
+   display: flex;
+   justify-content: center;
+   bottom: -150px;     
+}
+.entryPrompt{
+    position: relative;
+    top: 50px;
+    left: 65px;
+    
+}
+.entryInstruction{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+}
+.required{
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+}
+.entryInput{
+    width: 375px;
+    height: 30px;
+    border: 0px;
+    border-bottom: 2px solid #000000;
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 20px;
+    outline: none;
+}
+.entryInput:hover{
+    border: 0px;
+    border-bottom: 2px solid #000000; 
+}
+.centerInput{
+    margin-top: 20px;
+}
+.entryContent{
+    position: relative;
+    left: 20px;
+}
+.genderSelect{
+    font-size: 22px;
+}
+#termsWarning{
+    display: none;
+    color: red;
+}
+.entryLeft{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    width: 50%;   
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+}
+.terms{
+    display: inline-flex;
+}
+#termsButtons{
+    position: relative;
+    bottom: -100px;
+}
+.wrapper{
+    margin: 0px auto;
+    width: 50%;
+}
+
+.entryBox{
+    display: none;
+    position: relative;
+    width: 90%;
+    margin: 0px auto;
+}
+.firstEntryBox{
+    display: block;
+}
+.outerBorder{
+    border: 5px solid #00eeff;
+    width: 600px;
+    height: 420px;
+    transform: rotate(2deg);
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.innerBorder{
+    border: 5px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 420px;
+    transform: rotate(-2deg);
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+   
+}
+
+.topPrompt{
+    display: flex;
+    justify-content: space-between;
+}
+.stepInfo{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    left: 65px;
+}
+.stepImg{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    right: 90px;
+}
+.entrySubmit{
+    width: 100px;
+    height: 30px;
+    background:  #001a79;;
+    border: 3px solid #001a79;
+    margin-right: 40px;
+    color: white;
+
+}
+.entrySubmitDisabled{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #001a79;
+    margin-right: 40px;
+    color: #ffffff;
+    background:  #001a7930;;
+    
+
+}
+.entrySubmit:hover{
+    transform: translateY(-20%);
+    color: #001a79;
+    background-color: #32beff;
+    transition: 0.8s;
+
+}
+.promptButtons{
+    position: relative;
+   display: flex;
+   justify-content: center;
+   bottom: -150px;     
+}
+.entryPrompt{
+    position: relative;
+    top: 50px;
+    left: 65px;
+    
+}
+.entryInstruction{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+}
+.required{
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+}
+.entryInput{
+    width: 375px;
+    height: 30px;
+    border: 0px;
+    border-bottom: 2px solid #000000;
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 20px;
+    outline: none;
+}
+.entryInput:hover{
+    border: 0px;
+    border-bottom: 2px solid #000000; 
+}
+.centerInput{
+    margin-top: 20px;
+}
+.entryContent{
+    position: relative;
+    left: 20px;
+}
+.genderSelect{
+    font-size: 22px;
+}
+#termsWarning{
+    display: none;
+    color: red;
+}
+.entryLeft{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    width: 50%;   
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+}
+.terms{
+    display: inline-flex;
+}
+#termsButtons{
+    position: relative;
+    bottom: -100px;
+}
+.userinputs{
+    display: flex;
+    flex-direction: row;
+}
+#progressBar{
+    width: 50%;
+    background-color: #fffbfb;
+    height: 20px; 
+    border-radius: 30px;
+    margin-bottom: 10px; 
+    border: 2px solid black;
+}
+
+#progress {
+    width: 0%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #94cd57;
+    transition: 1s;
+    text-align: center;
+}
+#container4{
+    border: 3px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.userInputDescription{
+    position: relative;
+    left: 30px;
+    margin-right: 50px;
+}
+.data{
+    width: 400px;
+    height: 23px;
+    position: absolute;
+    left: 750px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor:default;
+    outline: none;
+}
+.data:hover{
+    border: 3px solid #001a79;
+    transition: 0.5s;
+   
+}
+.row{
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+}
+#userProfileDiv{
+    display: block;
+    margin: 0px auto;
+    width: 90%;
+    border: 2px solid gray;
+}
+.mainFont{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 40px;
+    color: #001a79;;
+}
+.userDetails{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+#termsGiving{
+    display: none;
+}
+#userProfileButtons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    border-bottom: 30px;
+}

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="userProfile.css">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body> 
+    <nav id="navBar">
+        <div>
+            <img src="images/logo.png" alt="logo" id="logo">
+        </div>
+
+        <div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#gallary">Gallary</a></li>
+            <li><a href="content.html">Content</a></li>
+            <li><a href="userProfile.html">User Profile</a></li>
+            <li><a href="team.html">Team</a></li>
+        </ul>    
+        </div>
+    </nav>
+    
+    <div id="progressBar" class="wrapper">
+    <div id="progress">
+        <label for="progressCount" id="progressCount"></label>
+    </div>
+    </div>
+    
+    
+
+    <!-- entry 1 -->
+    <div class="container3">
+        <div class="entryBox firstEntryBox" id="entry1">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 1 of 4 | Personal Details</b></p>
+                        <img src="images/personal.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter your full name <span class="required">&ast;</span> </label>
+                        <div class="centerInput">
+                        <input type="text" placeholder="Enter your Name here" class="entryInput" id="name">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmitDisabled skip" disabled>Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 2 -->
+    <div class="container3">
+        <div class="entryBox" id="entry2">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 1 of 4 | Personal Details</b></p>
+                        <img src="images/personal.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter your age</label>
+                        <div class="centerInput">
+                        <input type="number" placeholder="Enter Your Age " class="entryInput" id="age">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmit skip">Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 3 -->
+    <div class="container3">
+        <div class="entryBox" id="entry3">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 1 of 4 | Personal Details</b></p>
+                        <img src="images/personal.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter your gender<span class="required">&ast;</span> </label>
+                        <div class="centerInput">
+                            <div class="radioInput">
+                                <input type="radio" id="genderMale" name="gender" value="male">
+                                <label for="genderMale" class="genderSelect">male</label>
+                                <input type="radio" id="genderFemale" name="gender" value="female">
+                                <label for="genderFemale" class="genderSelect">female</label>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmitDisabled skip" disabled>Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 4 -->
+    <div class="container3">
+        <div class="entryBox" id="entry4">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 1 of 4 | Personal Details</b></p>
+                        <img src="images/personal.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter your Date of Birth</label>
+                        <div class="centerInput">
+                        <input type="date" class="entryInput" id="birth">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmit skip">Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 5 -->
+    <div class="container3">
+        <div class="entryBox" id="entry5">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 2 of 4 | Educational Details</b></p>
+                        <img src="images/education.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter your area of study<span class="required">&ast;</span> </label>
+                        <div class="centerInput">
+                        <input type="text" placeholder="Eg: Physics" class="entryInput" id="study">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmitDisabled skip" disabled>Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 6 -->
+    <div class="container3">
+        <div class="entryBox" id="entry6">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 2 of 4 | Educational Details</b></p>
+                        <img src="images/education.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter your university</label>
+                        <div class="centerInput">
+                        <input type="text" placeholder="University Of Colombo" class="entryInput" id="university">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmit skip">Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 7 -->
+    <div class="container3">
+        <div class="entryBox" id="entry7">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 2 of 4 | Educational Details</b></p>
+                        <img src="images/education.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter your Degree Level<span class="required">&ast;</span> </label>
+                        <div class="centerInput">
+                            <select id="degree" class="entryInput">
+                                <option value="" selected disabled>Select your degree level</option>
+                                <option value="Level 4">Level 4</option>
+                                <option value="Level 5">Level 5</option>
+                                <option value="Level 6">Level 6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmitDisabled skip" disabled>Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 8 -->
+    <div class="container3">
+        <div class="entryBox" id="entry8">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 2 of 4 | Educational Details</b></p>
+                        <img src="images/education.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter your student ID<span class="required">&ast;</span> </label>
+                        <div class="centerInput">
+                        <input type="text" placeholder="Eg:W1234567" class="entryInput" id="studentId">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmitDisabled skip" disabled>Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 9 -->
+    <div class="container3">
+        <div class="entryBox" id="entry9">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 3 of 4 | Contact Details</b></p>
+                        <img src="images/contact.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter your Contact Number<span class="required">&ast;</span> </label>
+                        <div class="centerInput">
+                        <input type="tel" placeholder="Eg: 0XX-XXXX-XXX" class="entryInput" id="contact">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmitDisabled skip" disabled>Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 10 -->
+    <div class="container3">
+        <div class="entryBox" id="entry10">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 3 of 4 | Contact Details</b></p>
+                        <img src="images/contact.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter Your Mail ID<span class="required">&ast;</span> </label>
+                        <div class="centerInput">
+                        <input type="text" placeholder="Eg: example@gmail.com" class="entryInput" id="mail">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmitDisabled skip" disabled>Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 11 -->
+    <div class="container3">
+        <div class="entryBox" id="entry11">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 3 of 4 | Contact Details</b></p>
+                        <img src="images/contact.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter Your Residential address</label>
+                        <div class="centerInput">
+                        <input type="text" placeholder="Eg: No, Street Name, City, Province" class="entryInput" id="reAddress">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back">Back</button>
+                        <button class="entrySubmit next">Continue</button>
+                        <button class="entrySubmit skip">Skip</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- entry 12 -->
+    <div class="container3">
+        <div class="entryBox" id="entry12">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                    <div class="topPrompt">
+                        <p class="stepInfo"><b>Step 3 of 4 | Contact Details</b></p>
+                        <img src="images/contact.gif" alt="personalDetails" class="stepImg">
+                    </div>
+                    <div class="entryPrompt">
+                        <label for="name" class="entryInstruction">Enter Your Mailing Address</label>
+                        <div class="centerInput">
+                        <input type="text" placeholder="your mailing address here" class="entryInput" id="meAddress">
+                        </div>
+                    </div>
+                    <div class="promptButtons">
+                        <button class="entrySubmit back" >Back</button>
+                        <button class="entrySubmit next" >Continue</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <div class="container3">
+        <div id="termsGiving">
+            <div class="outerBorder">
+                <div class="innerBorder">
+                    <div class="entryContent">
+                        <div class="entryLeft">
+                            <img src="images/terms-icon.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Terms and Conditions </h4>
+                            <div class="terms">
+                                <input type="checkbox" id="termsCheckbox" >
+                                <p class="termsDescription">I have read and agree to the website <br> <a href="#">Terms of Service and Privacy Policy</a></p>
+                            </div>
+                            <div id="termsButtons">
+                            <p id="termsWarning">To continue you need to agree to the terms <br> and Privacy Policy</p>
+                            <button id="tbackToTop" class="back entrySubmit">back</button>
+                            <button id="results"  class="next entrySubmit">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <!-- personal details -->
+        <p class="mainFont" >Personal Details</p>
+        <hr>
+        <!-- user Name -->
+        <div class="userDetails">
+            <label class="row">User Name</label>
+            <input type="text" id="userName" class="data" readonly>
+        </div>
+
+        <!-- user Age  -->
+        <div class="userDetails">
+            <label class="row">Age</label>
+            <input type="text" id="userAge" class="data" readonly>
+        </div>
+        
+        <!-- gender -->
+        <div class="userDetails">
+            <label class="row">Gender</label>
+            <input type="text" id="userGender" class="data" readonly>
+        </div>
+        
+        <!-- dob -->
+        <div class="userDetails">
+            <label class="row">Date Of Birth</label>
+            <input type="text" id="userBirth" class="data" readonly>
+        </div>
+        
+
+        <!-- education details -->
+        <p class="mainFont">Education Details</p>
+        <hr>
+
+        <!-- area -->
+        <div class="userDetails">
+            <label class="row">Area of Study</label>
+            <input type="text" id="userStudy" class="data" readonly>
+        </div>
+        
+        <!-- university -->
+        <div class="userDetails">
+            <label class="row">University</label>
+            <input type="text" class="data" id="userUniversity" readonly>
+        </div>
+
+        <!-- level -->
+        <div class="userDetails">
+            <label class="row">Level</label>
+            <input type="text" class="data" id="userLevel" readonly>
+        </div>
+        
+        <!-- ID -->
+        <div class="userDetails">
+            <label class="row">Student Id</label>
+            <input type="text" class="data" id="userId" readonly>
+        </div> 
+        
+        
+        <!-- contact details -->
+        <p class="mainFont">Contact Details</p>
+        <hr>
+
+        <!-- conact number -->
+        <div class="userDetails">
+            <label class="row">Contact Number</label>
+            <input type="text" class="data" id="userPhone" readonly>
+        </div>
+
+        <!-- email -->
+        <div class="userDetails">
+            <label class="row">Email</label>
+            <input type="text" class="data" id="userMail" readonly>
+        </div>
+        
+        <!-- address -->
+        <div class="userDetails">
+            <label class="row">Residential Address</label>
+            <input type="text" class="data" id="userAddressResident" readonly>
+        </div>
+
+        <div class="userDetails">
+            <label class="row">Mailing Address</label>
+            <input type="text" class="data" id="userAddressMail" readonly>
+        </div>
+
+        
+    </div>
+
+    <div id="userProfileButtons">
+        <button class="entrySubmit" id="backButton">Back</button>
+        <button class="entrySubmit" id="save">Next</button>
+    </div>
+
+    <footer>
+        <div id="footerContent">
+            <div id="subscribeBar">
+            <input type="text" placeholder="Subscribe to our newsteller" id="newsTeller">
+            <button id="subscribe">Subscribe</button>
+            </div>
+
+            <div><a href="pageEditor3.html" id="pageEditorBar"> &rarr; Page Editor </a></div>
+
+            <div id="footerBottom">
+                <hr id="hr">
+                <h5>&copy;2024 Blue Deapths.<a href="#" id="anchor">Privacy Policy</a></h5>
+            </div> 
+        </div>
+    </footer>
+
+    <script src="userProfile.js"></script>
+</body>
+</html>
